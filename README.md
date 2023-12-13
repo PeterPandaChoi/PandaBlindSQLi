@@ -1,10 +1,10 @@
 # PandaBlindSQLi
-<br/>'Panda Blind SQL injection' (or 'PandaBlindSQLi') is a rudimentary tool for automating 'Errorbased SQL injection' pentest Process, currently specialized in post method, Coded fully in Python, with a few lib.
-<br/>'Panda Blind SQLi'는 Blind SQL injection의 침투테스트를 위한 초보적인 툴이며, 몇몇 라이브러리를 포함한 파이썬으로 코딩하였습니다.
-<br/>해당 코드의 첫 커밋은 블로그에 상술되어 있습니다. [tba]
+'Panda Blind SQL injection' (or 'PandaBlindSQLi') is a rudimentary tool for automating 'Errorbased SQL injection' pentest Process, currently specialized in post method, Coded fully in Python, with a few lib.<br/>
+'Panda Blind SQLi'는 Blind SQL injection의 침투테스트를 위한 초보적인 툴이며, 몇몇 라이브러리를 포함한 파이썬으로 코딩하였습니다.<br/>
+해당 코드의 첫 커밋은 블로그에 상술되어 있습니다. [tba]<br/>
 
 # Specification
-<br/>method : POST
+method : POST
 <br/>parameter(fixed at the moment) : UserId, Password, Submit
 <br/>Utilized BinSearch Func : ascii(), substr()
 <br/>attack format : normaltic' and (ascii(substr((),1,1)) > 0) and '1'='1
