@@ -45,4 +45,9 @@ This Union SQL Injection goes through 7 steps.
 5. or even multiple table
 
 # Ref.
-Rudimentary Algorithm record & explanation(KR) : tba
+Rudimentary Algorithm record & explanation(KR) : https://blog.naver.com/panda_university/223287785346
+
+# Variations
+1. Sending payload through Cookie
+2. Sending payload through Column (reversed payload attack Format)
+3. Sending payload through 'Order By'
